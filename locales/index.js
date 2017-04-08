@@ -3,6 +3,7 @@ require('moment/locale/pt-br')
 require('moment/locale/pt')
 require('moment/locale/zh-cn')
 require('moment/locale/fr')
+require('moment/locale/es')
 
 module.exports = {
   'en': require('./en'),
@@ -11,4 +12,5 @@ module.exports = {
   'pt-PT': require('./pt-PT'),
   'zh-cn': require('./zh-cn'),
   'fr': require('./fr'),
+  'es': require('./fr'),
 }
